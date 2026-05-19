@@ -58,6 +58,12 @@ def calculate():
             list.delete(0,END)
             list.insert(END,'something went wrong please enter again')
 
+
+def fact(n):
+    if n == 1 or n == 0:
+        return 1
+    return n * fact(n - 1)
+
 operations = {'ADD':add,'ADDITION':add, 'SUM':add, 'PLUS':add,
             'SUB':sub, 'DIFFERENCE':sub, 'MINUS': sub, 'SUBTRACT':sub, 'DIFF':sub,
             'LCM':lcm, 'HCF':hcf, 'PRODUCT':mul, 'MULTIPLICATION':mul,
