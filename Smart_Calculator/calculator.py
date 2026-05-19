@@ -68,11 +68,11 @@ def fact(n):
 
 
 def circle_area(radius):
-    return PI * (float(radius) ** 2)
+    return PI * (radius ** 2)
 
 
 def circle_perimeter(radius):
-    return PI * float(radius) * 2
+    return PI * radius * 2
     
 
 operations = {'ADD':add,'ADDITION':add, 'SUM':add, 'PLUS':add,
