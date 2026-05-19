@@ -1,5 +1,5 @@
 import unittest
-from calculator import add, sub, mul, div, mod, lcm, hcf, fact, circle_area, circle_perimeter
+from calculator import add, sub, mul, div, mod, lcm, hcf
 
 class TestAdd(unittest.TestCase):
     def test_add_function(self):
